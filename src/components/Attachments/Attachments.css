@@ -1,0 +1,80 @@
+.attachments {
+    border: none;
+    grid-column: 1 / span 1;
+}
+
+.attachments:nth-last-child(1) {
+    margin: 0;
+}
+
+@media (min-width: 1024px) {
+    .attachments {
+        align-self: stretch;
+        border-top-width: 1px;
+        margin: 0;
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    }
+}
+
+.attachmentArea {
+	display: flex;
+}
+
+.sectionArea {
+	margin-bottom: 2rem;
+}
+
+.attachmentIcon {
+	padding-right: 0.3rem;
+}
+
+.attachmentContent {
+
+}
+
+.attachmentsTitle {
+
+}
+
+.sectionAttachmentsTitle {
+
+}
+
+.fileName {
+
+}
+
+.fileName:hover {
+	text-decoration: underline;
+}
+
+.fileNameWithoutLink {
+
+}
+
+.fileSize {
+	padding-left: 0.5rem;
+}
+
+.downloadsNumber {
+	padding-left: 0.5rem;
+}
+
+.fileDescription {
+    margin-top: 0.5rem;
+    margin-bottom: 1.5rem;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    padding: 0 0.5rem;
+}
+
+.fileDescription p {
+    margin: 0 0 1rem;
+}
+
+.fileDescription ul {
+    list-style-type: disc;
+    margin: 0 0 1rem;
+    padding-left: 2.5rem;
+}
