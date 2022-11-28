@@ -6,6 +6,7 @@ const GET_PRODUCT_ATTACHMENTS = gql`
   query getProductAttachments($urlKey: String!) {
     products(filter: { url_key: { eq: $urlKey } }) {
       items {
+        uid
         url_key
         mw_attachments {
                     tab_title
